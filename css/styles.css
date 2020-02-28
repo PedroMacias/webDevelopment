@@ -167,6 +167,7 @@ figure{
 
 .event-list{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .event-list-title{
@@ -272,12 +273,12 @@ figure{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container{
-  border: 1px solid red;
+.container{  
   width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
+  flex-wrap: wrap;
 }
