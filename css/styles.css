@@ -183,8 +183,8 @@ figure{
 }
 
 .event{
-  margin: 10px;
-  width: 480px;
+  margin: 1%;
+  width: 48%;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -336,8 +336,13 @@ figure{
     font-size: 16px;
   }
 
+  .project-course, .project-date, .project-url{
+     margin: .4em 0;
+  }
+
   .project-title{
     font-size: 1.5em;
+    margin-bottom: .3em;
   }
 
   .project-url{
@@ -345,7 +350,7 @@ figure{
   }
 
   .project-course{
-    font-size: 1.2em;
+    font-size: .7em;
   }
 
   .project-date{  
@@ -354,6 +359,15 @@ figure{
 
   .project-description{
     font-size: .8em;
+  }
+
+  .event{
+    width: auto;
+    flex-shrink: initial;
+  }
+
+  .event img {
+    width: 100%;
   }
 
 }
