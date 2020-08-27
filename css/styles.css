@@ -10,6 +10,11 @@
     url('../fonts/icomoon.ttf?6i4w2b') format('truetype'),
     url('../fonts/icomoon.woff?6i4w2b') format('woff'),
     url('../fonts/icomoon.svg?6i4w2b#icomoon') format('svg');
+    src:  url('../fonts//Socialicon/icomoon.eot?ewhap3');
+    src:  url('../fonts//Socialicon/icomoon.eot?ewhap3#iefix') format('embedded-opentype'),
+      url('../fonts//Socialicon/icomoon.ttf?ewhap3') format('truetype'),
+      url('../fonts//Socialicon/icomoon.woff?ewhap3') format('woff'),
+      url('../fonts//Socialicon/icomoon.svg?ewhap3#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -33,6 +38,38 @@
 .icon-menu:before {
   content: "\e900";
 }
+
+.icon-linkedin:before {
+  content: "\e901";
+}
+.icon-youtube:before {
+  content: "\e902";
+}
+.icon-youtube1:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-telegram:before {
+  content: "\e905";
+}
+.icon-whatsapp:before {
+  content: "\e906";
+}
+.icon-instagram:before {
+  content: "\e907";
+}
+.icon-facebook:before {
+  content: "\e908";
+}
+.icon-github:before {
+  content: "\e909";
+}
+.icon-mail:before {
+  content: "\e90a";
+}
+
 
 
 body{
