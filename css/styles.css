@@ -389,6 +389,21 @@ figure{
   position: relative;
 }
 
+.burguer-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, .8);
+  display: none;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  top: 5px;
+  left: 5px;
+  color: white;
+}
+
 /* Desktop first, writing bigger the first */
 
 @media screen and (max-width: 1024px){
@@ -421,6 +436,10 @@ figure{
 }
 
 @media screen and (max-width: 767px){
+
+  .burguer-button{
+    display: block;
+  }
 
   .header{
     display: block;
